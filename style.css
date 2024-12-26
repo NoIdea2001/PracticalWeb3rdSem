@@ -1,132 +1,97 @@
-*body{
-    background-color: #89bbbd;
+body{
+    background-color: #f4fab4;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-
 }
 
 nav{
-    background-color: #719ba9;
+    background-color: #612310;
     color: white;
     text-align: center;
-    padding: 10px;
-    height: 12vh;
     display: flex;
-}
-nav > div{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 22px;
-}
-.left {
-    font-size: 40px;
-    margin-left: 20px;
-    font-family: 'Courier New', Courier, monospace;
-}
-.right{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80vb;
-    
-}
-.right > div{
-    display: flex;
-    justify-content: space-between;
-    height: 20vh;
+    height: 10vh;
+    justify-content: space-between ;
+    margin: 2rem;
+    border-radius: 10rem;
+    position: relative;
+    top: 1;
+
 }
 .navimg{
     display: flex;
     align-items: center;
+    margin-right: 2vw;
 }
-.navimg > img{
-    height: 30px;
-    margin: 5px;
+.navimg > a > img{
+    height: 4vh;
+    margin: 0 1vw 0 1vw;
 }
 .navlinks{
     display: flex;
+    flex-direction: row;
+    margin-right: 2vw;
     align-items: center;
-    margin-right: 10px;
 }
-.navlinks > a {
-    margin: 5px;
+.navlinks > a{
     color: white;
-    font-style: none;
-    font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
+    padding: 0.1vw;
+    margin: 0vw 1vw 0vw 1vw;
+    font-size: 1.1rem;
+}
+.right-nav{
+    display: flex;
+    padding: 1rem;
+}
+.left-nav{
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 3vw;
+    margin-top: 1vh;
+}
+.left-nav > h1{
+    display: flex;
+    align-items: center;
 }
 .hero{
-    height: 80vh;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    background-color: #f4fab4;
+}
+.girl > img{
+    height: 70vh;
+    margin-left: 5vw;
+    position: fixed;
+    bottom: 0;
+    right: 5vw;
+    transform: scaleX(-1);
 }
 .hero-text{
-    margin-left: 50px;
-
-}
-.hero-text > h1{
-    font-size: 50px;
-
-}
-.girl > img {
-    height: 500px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5vh;
+    font-size: 2rem;
+    color: #1e0702;
 }
 
-.button-5 {
-  align-items: center;
-  background-clip: padding-box;
-  background-color: #fa6400;
-  border: 1px solid transparent;
-  border-radius: .25rem;
-  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-flex;
-  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  justify-content: center;
-  line-height: 1.25;
-  margin: 0;
-  min-height: 3rem;
-  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
-  position: relative;
-  text-decoration: none;
-  transition: all 250ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: baseline;
-  width: auto;
+.button{
+    background-color: #612310;
+    color: white;
+    padding: 1vw;
+    border-radius: 1vw;
+    text-decoration: none;
+    margin-top: 1vw;
+    height: 3vw;
+    border: none;
+    margin-left: 1vw;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.button:hover{
+    background-color: #5f3224;
+    /* color: #612310; */
 }
 
-.button-5:hover,
-.button-5:focus {
-  background-color: #fb8332;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-}
-
-.button-5:hover {
-  transform: translateY(-1px);
-}
-
-.button-5:active {
-  background-color: #c85000;
-  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
-  transform: translateY(0);
-}
-
-.heroimg{
-    height: 25px;
-}
-
-.butt{
-    height: 10px;
-    margin-left: 10px;
-    margin-top: 20px;
-}
